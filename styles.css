@@ -1606,6 +1606,29 @@ h3 {
     .nav-menu {
         display: none;
     }
+
+    .nav-container {
+        justify-content: center;
+        gap: 0;
+        position: relative;
+    }
+
+    .logo {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .logo-image {
+        width: 60px;
+        height: 60px;
+    }
+
+    .nav-actions {
+        position: absolute;
+        right: 1rem;
+    }
     
     .hero-text h1 {
         font-size: 2.5rem;
@@ -1662,6 +1685,11 @@ h3 {
     
     .about-text {
         padding-right: 0;
+        order: 1;
+    }
+
+    .about-image {
+        order: 2;
     }
     
     .about-header h2 {
